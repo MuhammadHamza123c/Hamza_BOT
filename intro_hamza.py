@@ -10,7 +10,7 @@ Headers={
     'Authorization':f'Bearer {api_key}',
     'Content-Type':'application/json'
 }
-loader=TextLoader('D:/Code/hamza-port.txt')
+loader=TextLoader('hamza-port.txt')
 document=loader.load()
 splitter=RecursiveCharacterTextSplitter(chunk_size=500,chunk_overlap=10)
 chunks=splitter.split_documents(document)
