@@ -1,11 +1,14 @@
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 from langchain_community.vectorstores import Chroma
 import streamlit as st
 import requests
+import os
 
 api_key = st.secrets["api"]['grok_key']
+huggingface_key = st.secrets["api"]['huggingface_key']
+
 url = "https://api.groq.com/openai/v1/chat/completions"
 Headers = {
     'Authorization': f'Bearer {api_key}',
@@ -16,7 +19,12 @@ loader = TextLoader('hamza-port.txt')
 document = loader.load()
 splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=10)
 chunks = splitter.split_documents(document)
-embeddingss = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
+embeddingss = HuggingFaceInferenceAPIEmbeddings(
+    api_key=huggingface_key,
+    model_name="sentence-transformers/all-MiniLM-L6-v2"
+)
+
 vectorstore = Chroma.from_documents(chunks, embeddingss)
 
 user = st.text_input("User: ")
