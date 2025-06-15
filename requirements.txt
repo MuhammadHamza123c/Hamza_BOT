@@ -1,6 +1,9 @@
+langchain
+langchain-community
+langchain-text-splitters
+chromadb==0.4.24
+protobuf==3.20.3
+sentence-transformers
+torch
 streamlit
-langchain>=0.1.16
-langchain-community>=0.0.21
-langchain-text-splitters>=0.0.1
-chromadb
 requests
