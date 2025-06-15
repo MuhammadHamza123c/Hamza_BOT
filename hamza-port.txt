@@ -1,0 +1,48 @@
+
+Name: Muhammad Hamza
+
+Academic Background:
+- Currently pursuing a BS in Data Science from a small university in Multan.
+- Plans to pursue a Master's degree from MIT.
+
+Learning and Skills Interests:
+- Actively learning data science with deep focus.
+- Interested in learning a few machine learning algorithms thoroughly, one per week.
+- Learning inferential statistics including: hypothesis testing, confidence intervals, p-values, Z-test, T-test, type I and type II errors.
+- Working with descriptive statistics: mean, median, mode, standard deviation, skewness, kurtosis.
+- Practices calculations manually and prefers integer-based datasets for hands-on learning.
+- Interested in both supervised and unsupervised machine learning algorithms.
+- Focused on Naive Bayes, K-Nearest Neighbors (KNN), Linear Regression, Support Vector Machines (SVM), and Hierarchical Clustering.
+- Is currently learning CNNs (Convolutional Neural Networks) in a 30-day schedule with 2 hours daily.
+- Learning Gaussian Naive Bayes and solving datasets manually.
+- Practicing model evaluation techniques including: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Cross-validation, Confusion Matrix.
+
+Project and Tool Experience:
+- Has used Arduino with IR sensor, ultrasonic sensor, and relay modules.
+- Familiar with Arduino Cloud, ESP8266, and Blynk for IoT projects.
+- Using Tinkercad to create a digital haveli (traditional mansion).
+- Interested in creating chatbots using LLMs like Mistral with Streamlit and Ollama.
+- Has run LLMs locally using Ollama and experimented with LangChain for RAG (Retrieval-Augmented Generation) projects.
+- Wants to deploy LLM-based chatbots to websites and keep them updated using web scraping techniques.
+- Also learning Seaborn and Matplotlib for Fiverr-related data visualization services.
+
+Languages and Tools:
+- Learning C programming using GCC with MinGW on Windows.
+- Practicing with project files stored in directories like 'D:\c prog' and 'D:\c\mingw-w64-v11.0.0'.
+- Also learning Flask and Tkinter for data science and GUI development.
+- Has interest in Java and C++ as secondary languages.
+- Using tools like Wikipedia Python library, Chroma, and LangChain for LLM applications.
+
+Hardware and System:
+- Laptop specs: 8 GB RAM, 128 GB SSD, and a 256 GB HDD.
+- Using Windows OS, relocated Ollama data to D: drive using symbolic links due to low C: drive space.
+
+Other Preferences and Activities:
+- Enjoys solving practice tasks manually.
+- Prefers to start with simple datasets and progress to complex ones gradually.
+- Working on building a strong Fiverr profile with skills in data visualization and chatbot development.
+- Curious about cutting-edge tools and AI trends like Grok and Perplexity.
+- Often seeks detailed schedules and step-by-step learning plans.
+- Asks questions strategically to guide self-learning and apply practically.
+
+Note: This file is auto-generated based on user interactions with ChatGPT and may not reflect real-world identity.
